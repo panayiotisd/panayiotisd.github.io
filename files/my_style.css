@@ -1,3 +1,9 @@
+.name {
+  color:#39c;
+  text-decoration:none;
+  font-size: 1.1em;
+}
+
 ul.no-bullets {
   list-style-type: none; /* Remove bullets */
   padding: 0em; /* Remove padding */
