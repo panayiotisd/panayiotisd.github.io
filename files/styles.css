@@ -120,8 +120,15 @@ header ul {
   width:270px;
 }
 
-header li {
+/*header li {
   width:89px;
+  float:left;
+  border-right:1px solid #e0e0e0;
+  height:40px;
+}*/
+
+header li {
+  width:133.5px;
   float:left;
   border-right:1px solid #e0e0e0;
   height:40px;
@@ -158,9 +165,14 @@ strong {
   font-weight:500;
 }
 
-header ul li + li + li {
+/*header ul li + li + li {
   border-right:none;
   width:89px;
+}*/
+
+header ul li + li {
+  border-right:none;
+  width:133.5px;
 }
 
 header ul a strong {
