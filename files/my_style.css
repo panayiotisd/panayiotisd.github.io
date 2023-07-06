@@ -4,6 +4,10 @@ strong.name {
   font-size: 1.1em;
 }
 
+b.linkcolor {
+  color:#39c;
+}
+
 ul.no-bullets {
   list-style-type: none; /* Remove bullets */
   padding: 0em; /* Remove padding */
