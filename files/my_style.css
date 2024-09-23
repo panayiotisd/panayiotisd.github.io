@@ -48,3 +48,30 @@ a.menu {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+
+/* Basic styles for the list */
+.publications-list {
+  list-style: none;          /* Remove default bullets */
+  padding-left: 0;           /* Remove default padding */
+  max-width: 600px;          /* Optional: Limit the width */
+}
+
+/* Style each list item */
+.publications-list li {
+  position: relative;        /* Establish a positioning context for the pseudo-element */
+  padding-left: 50px;        /* Space for the custom label */
+}
+
+/* Add the custom [Jx] label before each list item */
+.publications-list li::before {
+  content: "[" attr(data-number) "]"; /* Use the data-number attribute */
+  position: absolute;        /* Position the label absolutely within the list item */
+  left: 0;                   /* Align to the left */
+  top: 0;                    /* Align to the top */
+  font-weight: bold;         /* Make the label bold */
+  font-size: 0.8em;        /* Reduce font size */
+  background-color: #ecf0f1; /* Background color for better visibility */
+  padding: 2px 6px;         /* Padding around the label */
+  border-radius: 4px;        /* Rounded corners */
+}

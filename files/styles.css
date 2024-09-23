@@ -235,9 +235,11 @@ footer {
   }
 
   header ul {
-    position:absolute;
-    right:50px;
-    top:52px;
+    width:99%;
+  }
+
+  header li, header ul li + li + li {
+    width:50%;
   }
 }
 
@@ -269,7 +271,7 @@ footer {
   }
 
   header li, header ul li + li + li {
-    width:33%;
+    width:50%;
   }
 }
 
